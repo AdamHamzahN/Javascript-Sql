@@ -1,0 +1,33 @@
+[
+  {
+    "nama": "Lily",
+    "kelas": "web",
+    "nilai": [
+      72,
+      92,
+      87
+    ]
+  },
+  [
+    {
+      "nama": "Sunflower",
+      "kelas": "web",
+      "nilai": [
+        93,
+        97,
+        83
+      ]
+    }
+  ],
+  [
+    {
+      "nama": "Magnolia",
+      "kelas": "web",
+      "nilai": [
+        98,
+        77,
+        68
+      ]
+    }
+  ]
+]
