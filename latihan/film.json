@@ -1,0 +1,50 @@
+[
+  {
+    "nama": "Agak Laen",
+    "tahun": 2024,
+    "genre": [
+      "Horror",
+      "Komedi"
+    ]
+  },
+  {
+    "nama": "Habibie & Ainun",
+    "tahun": 2012,
+    "genre": [
+      "Drama",
+      "Romantis"
+    ]
+  },
+  {
+    "nama": "Dilan 1990",
+    "tahun": 2018,
+    "genre": [
+      "Romantis",
+      "Komedi"
+    ]
+  },
+  {
+    "nama": "Agak Laen Kau",
+    "tahun": 2024,
+    "genre": [
+      "Horror",
+      "Komedi"
+    ]
+  },
+  {
+    "nama": "Habibie & Ainun & Dia",
+    "tahun": 2012,
+    "genre": [
+      "Drama",
+      "Romantis"
+    ]
+  },
+  {
+    "nama": "Dilan 1991",
+    "tahun": 2018,
+    "genre": [
+      "Romantis",
+      "Komedi"
+    ]
+  }
+]
