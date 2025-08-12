@@ -1,7 +1,7 @@
 function bagiAngka(a, b) {
     try{
         if( b == 0){
-            throw new Error("Tidak membagi dengan nol");
+            throw new Error("Tidak bisa membagi dengan nol");
         }else{
             let hasil = a / b;
             console.log("Hasil Pembagian adalah : " + hasil);
@@ -16,7 +16,7 @@ let angka2 = 0;
 try {
     bagiAngka(angka1, angka2)
 } catch (error) {
-    console.log("Terjadi kesalahan lain :" + error.message)
+    console.log("Terjadi kesalahan lain : " + error.message)
 }
 
 console.log("Program Selesai");
