@@ -9,3 +9,17 @@ let tinggi = [
 for (i = 0; i < tinggi.length; i++) {
     console.log(`${tinggi[i].nama} Memiliki tinggi ${tinggi[i].tinggi} cm`);
 }
+
+let tinggi2 = {
+    Rose:178,
+    Magnolia:153,
+    Daisy:165,
+    Jasine: 161,
+    Violet:159
+}
+
+console.log("======= For in =================")
+for(let nama in tinggi2){
+    console.log(`${nama} Memiliki tinggi ${tinggi2[nama]} cm`);
+
+}
