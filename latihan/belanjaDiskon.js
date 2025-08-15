@@ -26,7 +26,7 @@ let kembalian = pembayaran - hargaSetelahDiskon;
 console.log("===== Rincian Pembelian =====");
 console.log("Headset = Rp." + headset);
 console.log("Mouse = Rp." + mouse);
-console.log("Keyboard = Rp." + keyboard);
+console.log("Keyboard = Rp." + keyboa)
 console.log("");
 console.log("Total Belanja = Rp. "+ total);
 console.log("Diskon "+ diskon);
