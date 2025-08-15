@@ -91,4 +91,19 @@ where p.id in (
 	select pc.post_id
     from post_categories p
     group by post_id
-    having count (category_id) >= 2);
+    having count(category_id) >= 2);
+    
+-- 8
+select u.name as 'Author Name',p.title as 'Post Title' 
+from users u
+	join blog_posts p 
+		on u.id = p.author_id
+	join post_categories pc
+		on p.id = pc.post_id
+	join categories c
+		on pc.category_id = c.id
+where p.id in (
+	select pc.post_id
+    from post_categories p
+    group by post_id
+    having count(category_id) = 1);
